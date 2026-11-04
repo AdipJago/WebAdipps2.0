@@ -1,0 +1,17 @@
+{
+  "name": "webadipps-animations",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Lapisan animasi JSX (React) untuk portfolio Flask Ahnaf Adib Yunan",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs --watch"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
