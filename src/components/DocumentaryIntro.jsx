@@ -34,7 +34,7 @@ const END_AT = 6300;                    // mulai "membuka" layar (ms)
  * Intro bergaya film dokumenter:
  * layar hitam + grain film, goresan & kedip, vignette, letterbox, HUD kamera (REC + timecode),
  * judul muncul huruf demi huruf, lalu layar terbelah ke atas/bawah menampilkan website.
- * Bisa dilewati: klik, tombol "Lewati", Enter, Spasi, atau Esc.
+ * Bisa dilewati: klik, tombol "Lewati", Enter, Spasi, atau Esc
  */
 export default function DocumentaryIntro() {
   const [phase, setPhase] = useState("play"); // play | open | gone
