@@ -194,3 +194,9 @@ html[data-intro="done"] .loader:not(.is-hidden) { display: none; }
    huruf tertentu (mis. "ha" pada "Mahasiswa") tetap transparan. Pakai keyframe eksplisit. */
 .di-char--type { animation: di-type2 .09s linear forwards; animation-delay: calc(var(--i) * var(--step, 32ms)); }
 @keyframes di-type2 { from { opacity: 0; } to { opacity: 1; } }
+
+/* FIX: pembungkus kata (.fx-nw) tidak boleh ikut tergeser oleh aturan
+   ".hero__title-line span" / "[data-reveal-text]" (penyebab nama biru "ADIB YUNAN" hilang) */
+.hero__title-line .fx-nw,
+[data-reveal-text] .fx-nw,
+.section-title .fx-nw { transform: none !important; transition: none !important; }
