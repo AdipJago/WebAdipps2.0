@@ -1,0 +1,15 @@
+CARA MEMASANG LAGU PENUH (BISA GANTI-GANTI, OTOMATIS LANJUT SAMPAI SELESAI)
+
+1. Taruh file lagu (mp3) kamu di folder ini (assets/music/).
+2. Isi playlist.json, contoh:
+
+{
+  "tracks": [
+    { "title": "Judul Lagu 1", "artist": "Nama Artis", "file": "lagu1.mp3" },
+    { "title": "Judul Lagu 2", "artist": "Nama Artis", "file": "lagu2.mp3" }
+  ]
+}
+
+- "file" = nama file mp3 persis (huruf besar/kecil sama).
+- Selama "tracks" masih kosong, pemutar otomatis memakai embed playlist Spotify.
+- Pakai file yang kamu punya haknya / boleh dipakai. Ukuran mp3 sebaiknya < 10 MB per lagu.
